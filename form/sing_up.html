@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+   body{
+    background-color: antiquewhite;
+    color:black;
+    font-size: 22px; 
+    margin-left: 600px;
+   }
+
+
+fieldset {
+    border-color:red;
+    width: 700px;
+    border-radius: 10px;
+}
+
+legend{
+    color: red;
+}
+
+input{
+    width: 220px;
+    height: 30px;
+    border-radius:15px;
+    border-color:black;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.gen input{
+   margin: -70px;
+   margin-top: 10px;
+   width: 180px;
+   height: 15px;
+}
+
+.file input{
+    border-radius:  0px;
+    border: 2px solid black;
+    width: 350px;
+    height: 28px;
+    font-size: 20px;
+}
+
+.btn input{
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    
+}
+
+.hobb input{
+    width: 23px;
+    height: 15px;
+   margin-left: 0px;
+}
+
+form{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+</style>
+<body>
+     <fieldset>
+    <legend><font size="10px">Reg.. Form</font></legend>
+    <form action="">
+        <label for="name">Name<font color='red'>*</font> :</label>
+        <input type="text" autocomplete="of" placeholder="Enter Your Name" required>
+         <br>
+         <br>
+        <label for="">Age<font color='red'>*</font> :</label>
+        <input type="number" autocomplete="of" required>
+        <br>
+        <br>
+        <label for="email">E mail<font color='red'>*</font> :</label>
+        <input type="email" required autocomplete="of" placeholder="Enter Email Address" required>
+        <br>
+        <br>
+        <label for="" >Password<font color='red'>*</font></label>
+        <input type="password" required autocomplete="of" placeholder="Enter Password" required >
+        <br>
+        <br>
+    <div class="gen">
+        <label for="gen123">Gender :</label>
+        <input type="radio" name="qw1">Male
+        <input type="radio" name="qw1">Female
+    </div> 
+        <br>
+        <br>
+       <label for="phone_number">Phone Number<font color='red'>*</font></label>
+       <input type="number" autocomplete="of" placeholder="Enter Mobile Number" required>
+        <br>
+        <br>
+        <lable for="BOD">Brith Date<font color='red'>*</font></lable>
+        <input type="date" autocomplete="of" required>
+        <br>
+        <br>
+        <label for="time">Select Time</label>
+        <input type="time" autocomplete="of">
+        <br>
+        <br>
+        <label for="add" >Address</label>
+        <textarea rows="5px" cols="20px" autocomplete="of"></textarea>
+        <br>
+        <br>
+        <label for="range">Range</label>
+        <br>
+        <input type="range" autocomplete="of">
+        <br>
+        <br>
+        <label for="color">Select Color</label>
+        <input type="color" autocomplete="of">
+        <br>
+        <br>
+        <label for="sele">Select Language</label>
+        <select>
+            <option value="">PHP</option>
+            <option value="">JAVA</option>
+            <option value="">C++</option>
+            <option value="" selected>Node Js</option>
+            <option value="">React Js</option>
+        </select>
+        <br>
+        <br>
+        <div class="file">
+        <label for="file">File</label>
+        <input type="file" autocomplete="of">
+    </div>
+        <br>
+        <br>
+        <div class="hobb">
+        <label for="hobbies">Hobbies</label>
+     
+       <input type="checkbox">Cricket
+      <input type="checkbox">Acting
+ 
+      <input type="checkbox">Archery
+      <input type="checkbox">Dancing
+  
+      <input type="checkbox">Drawing
+      <input type="checkbox">Gaming
+    </div>
+      <br>
+      <br>
+      <center>
+      <div class="btn"> 
+      <input type="reset" style="border: 2px black solid;">&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="submit" onclick="alert('Login Successfully')" style="border: 2px black solid;"></div></center>
+    </form>
+</fieldset> 
+</body>
+<script>    
+</script>
+</html>
